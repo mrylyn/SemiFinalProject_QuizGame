@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(73, 170, 175);
+    background:url('https://wallpaperboat.com/wp-content/uploads/2019/10/cool-website-background-01.jpg ') no-repeat;
+}
+
+.box{
+    width: 50%;
+    height: 50%;
+    background-color: #CBF1F5;
+    padding: 20px;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.question1{
+    text-align: left;
+    font-size: medium;
+    margin: 20px;
+    
+}
+
+
+
+.btn{
+    background: aliceblue;
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px, 0;
+    text-align: left;
+    border-radius: 10px;
+    border: 10px solid;
+    width: 50%;
+    height: 50%;
+    transition: all 0.5s;
+}
+
+.btn:hover:not([disabled]){
+    background: black;
+    color:white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next{
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    display: none;
+    width: 150px;
+    border: 0;
+    background: rgb(46, 123, 142);
+    transition: all 0.5s;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
